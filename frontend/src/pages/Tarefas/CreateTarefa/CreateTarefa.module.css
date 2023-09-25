@@ -1,0 +1,48 @@
+.fundo_container {
+    width: 90%;
+    height: auto;
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+
+}
+
+/* No seu arquivo CSS (CreateTarefa.module.css) */
+.description-input {
+    width: 100%;
+    /* Defina a largura que desejar */
+    height: 150px;
+    /* Defina a altura desejada para o tamanho médio */
+    resize: vertical;
+    /* Permite que o usuário redimensione verticalmente */
+    overflow-y: auto;
+    /* Adiciona uma barra de rolagem vertical quando o conteúdo ultrapassar a altura */
+}
+
+.fundo_option {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.select_widht {
+    width: 50%;
+
+}
+
+.btn_criar {
+    background-color: #c30202;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    padding: 10px 20px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    cursor: pointer;
+    transition: all .2s ease;
+}
+
+.btn_criar:hover {
+    background-color: #d50303;
+}

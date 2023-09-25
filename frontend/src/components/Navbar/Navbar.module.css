@@ -1,0 +1,199 @@
+.fundo_menu_navbar {
+    background-color: #C30000;
+    width: 5%;
+    height: 100vh;
+    position: fixed;
+}
+
+
+.container_imagem_menu_navbar_dois {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.2s ease-in-out;
+
+}
+
+.container_imagem_menu_navbar_tres {
+    margin-top: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.2s ease-in-out;
+
+}
+
+.container_imagem_menu_navbar_tres:hover {
+    cursor: pointer;
+}
+
+
+.logo_img_menu_navbar {
+    width: 90%;
+    margin-top: 15%;
+    transition: all 0.2s ease-in-out;
+}
+
+.logo_img_menu_navbar_login{
+    width: 50%;
+
+}
+
+.link_menu_navbar {
+    text-decoration: none;
+    transition: all 0.2s ease-in-out;
+}
+
+.tamanho_linha_entre_menu_navbar {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.linha_entre_menu_navbar {
+    height: 1px;
+    background-color: rgba(250, 235, 215, 0.548);
+    width: 80%;
+}
+
+.tamanho_icon_menu_navbar {
+    width: 100%;
+    transition: all 0.5s ease-in-out;
+}
+
+.tamanho_icon_menu_navbar:hover {
+    .icon_menu_navbar {
+        color: rgba(227, 227, 227, 0.635);
+    }
+
+    .texto_menu_navbar {
+        color: rgba(227, 227, 227, 0.635);
+    }
+
+    .tamanho_imagem_perfil{
+        opacity: 80%;        
+    }
+}
+
+.icon_menu_navbar {
+    font-size: 40px;
+    width: 100%;
+    color: rgb(255, 255, 255);
+    transition: all 0.2s ease-in-out;
+
+}
+
+p {
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    font-size: 10px;
+    font-weight: 800;
+    padding-top: 8px;
+    text-align: center;
+    transition: all 0.2s ease-in-out;
+
+}
+
+.fundo_btn_login_menu_navbar {
+    background-color: #C30000;
+    margin: auto;
+    width: 40%;
+    height: 400px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    border-radius: 50px;
+}
+
+.fundo_login_register_tamanho{
+    width: 50%;
+    height: 100vh;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.alinhamento_login_register_tamanho{
+    width: 80%;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container_imagem_menu_navbar_login{
+    text-align: center;
+    width: 80%;
+}
+
+.alinhamento_login_register_tamanho_color{
+    background-color: #C30000;
+    width: 80%;
+    height: 50%;
+    border-radius: 50px;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.link_menu_navba_login_register{
+    text-decoration: none;
+    width: 50%;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    transition: all 0.2s ease-in-out;
+
+}
+
+.link_menu_navba_login_register:hover{
+    background-color: #eeeeeedf;
+
+    .p_login_register:hover{
+        font-size: 100%;
+        width: 100%;
+
+    }
+
+}
+
+.btn_login_register{
+    text-align: center;
+    width: 100%;
+}
+
+.p_login_register{
+    color: #C30000;
+    font-size: 90%;
+}
+
+.tamanho_imagem_perfil{
+    border-radius: 100%;
+    color: rgb(255, 255, 255);
+    transition: all 0.2s ease-in-out;
+    height: 50px;
+    width: 50px;
+    cursor: pointer;
+    margin: 0 20px ;
+    border-style: solid;
+    border-color: #ffffff;
+}

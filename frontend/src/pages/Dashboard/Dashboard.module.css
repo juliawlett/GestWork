@@ -1,0 +1,258 @@
+.container {
+    width: 98%;
+    height: 100vh;
+}
+
+.formatacao_titulo {
+    background-color: antiquewhite;
+    margin-top: 40px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    background-color: #C30000;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.titulo_font {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    text-transform: uppercase;
+    margin-left: 10px;
+    font-size: 35px;
+    color: #f0f0f0;
+}
+
+.trello {
+    font-size: 40px;
+    color: #f0f0f0;
+}
+
+.menu_quantidade {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu_fazer {
+    border-radius: 10px;
+    height: 100px;
+    margin: 5px;
+    width: 20%;
+    background-color: #a91313fc;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.menu_andamento {
+    border-radius: 10px;
+    height: 100px;
+    margin: 5px;
+    width: 20%;
+    background-color: #b5b322;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.menu_concluida {
+    border-radius: 10px;
+    height: 100px;
+    margin: 5px;
+    width: 20%;
+    background-color: #248e17;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.menu_cancelada {
+    border-radius: 10px;
+    height: 100px;
+    margin: 5px;
+    width: 20%;
+    background-color: #6F6F6F;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.menu_total {
+    border-radius: 10px;
+    height: 100px;
+    margin: 5px;
+    width: 20%;
+    background-color: #f0f0f0;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.menu_criar {
+    border-radius: 10px;
+    height: 100px;
+    margin: 5px;
+    width: 20%;
+    background-color: #f0f0f0;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    transition: all 0.4s ease;
+}
+
+.menu_criar:hover {
+    background-color: #bfbebea8;
+}
+
+.menu_criar:hover .plus {
+    color: #790000;
+}
+
+.menu_criar:hover .text_criar {
+    color: #790000;
+}
+
+.plus {
+    font-size: 50px;
+    color: #C30000;
+    margin-top: 15px;
+    transition: all 0.4s ease;
+}
+
+.text_criar {
+    color: black;
+    font-weight: 500;
+    font-size: 13px;
+    text-transform: uppercase;
+}
+
+
+.text_p {
+    color: black;
+    text-align: start;
+    margin: 0;
+    margin-left: 10px;
+    font-size: 15px;
+    font-weight: 500;
+
+}
+
+.numero_tarefa {
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 50px;
+    margin-left: 5px;
+    margin: 0;
+}
+
+.fundo_grafico {
+    margin-top: 30px;
+    margin-left: 10px;
+    width: 50%;
+    background-color: #f0f0f0;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.text_grafico {
+    font-size: 15px;
+    color: black;
+    font-weight: 400;
+    margin: 0;
+    margin-top: 20px;
+}
+
+.fundo {
+    display: flex;
+}
+
+.tabela {
+    width: 100%;
+    border: 0.5px solid rgba(224, 224, 224, 0.772);
+    max-height: 400px;
+    overflow: auto;
+}
+
+.fundo_name_color{
+    background-color: #C30000;
+}
+
+.fundo_departamento {
+    margin-top: 30px;
+    width: 49%;
+    margin-left: 20px;
+}
+
+.text_departamento_tabela {
+    border: 0.5px solid rgba(224, 224, 224, 0.772);
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+
+}
+
+.border_criado {
+    border-left: 0.5px solid rgba(138, 117, 0, 0.338);
+
+}
+
+.btn_ver {
+    color: #ff8c8c;
+    font-size: 20px;
+    margin-left: 70px;
+}
+
+.fundo_tarefa{
+margin-top: 25px;
+}
+
+.text_tarefa{
+    margin: 0;
+    font-size: 20px;
+    color: black;
+    font-weight: 400;
+    text-align: start;
+    margin-left: 15px;
+    margin-bottom: 10px;
+
+}
+
+.btn_tarefa{
+    border: none;
+    text-align: center;
+    width: 100%;
+    transition: all 0.4s ease;
+
+}
+.btn_tarefa:hover{
+    background-color: #800000fa;
+    color: #ffffff;
+}
+
+.text_vermais{
+    color: black;
+    text-align: end;
+    margin: 0;
+    font-size: 12px;
+    font-weight: 500;
+    margin-right: 25px;
+    transition: all 0.2s ease;
+    margin-top: 8px;
+
+}
+.text_vermais:hover{
+    color: #C30000;
+}
+
+.linha{
+    width: 3px;
+    height: 100px;
+    background-color: #a2a2a230;
+    margin: 10px;
+}

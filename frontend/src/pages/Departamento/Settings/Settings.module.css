@@ -1,0 +1,151 @@
+/* Exemplo de CSS aprimorado */
+.tamanho_container_navbar_form {
+    display: flex;
+    justify-content: center;
+}
+
+.fundo_container {
+    width: 90%;
+    height: auto;
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.fundo_menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #c30202;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.div_menu {
+    display: flex;
+    align-items: center;
+}
+
+.text_menu {
+    font-size: 30px;
+}
+
+.text_depart {
+    color: azure;
+    text-decoration: solid;
+}
+
+.fundo_depart {
+    width: 100%;
+    height: auto;
+
+}
+
+.menu_departamento{
+    width: 100%;
+    height: 50px;
+    display: flex;
+
+}
+
+.text_menu_departamento{
+    width: 80%;
+    height: 100%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+.fundo_btn{
+    width: 20%;
+}
+
+.centralizar_bt{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.botao_depart{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    background-color: #c30202;
+    border: none;
+    color: rgb(255, 255, 255);
+    height: 90%;
+    width: 20%;
+    padding: 10px;
+    transition: all 0.4s ease;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    border-radius: 10px;
+}
+
+.botao_depart:hover{
+    background-color: #d50303;
+
+}
+
+.border_tabela{
+    border-color: black;
+}
+
+.btn_editar{
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    background-color: #f1eb3f;
+    border: none;
+    height: 90%;
+    width: 45%;
+    padding: 10px;
+    transition: all 0.4s ease;
+    font-size: 14px;
+    border-radius: 10px;
+    text-align: center;
+}
+.btn_editar:hover{
+    background-color: #cfc921;
+    cursor: pointer;
+}
+
+.text_editar{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-family: 'Poppins', sans-serif;
+}
+.deletar{
+    margin-left: 10px;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    background-color: #d50303;
+    border: none;
+    color: rgb(255, 255, 255);
+    height: 90%;
+    width: 45%;
+    padding: 10px;
+    transition: all 0.4s ease;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    border-radius: 10px;
+}
+
+.deletar:hover{
+    background-color: #a10303;
+    cursor: pointer;
+}
+
+.text_departamento_tabela{
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+}
+
+.text_title{
+    font-family: 'Poppins', sans-serif;
+    text-transform: uppercase;
+}

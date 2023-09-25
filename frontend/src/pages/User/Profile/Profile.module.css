@@ -1,0 +1,57 @@
+.tamanho_container_navbar_form {
+    display: flex;
+}
+
+.container_form_perfil {
+    width: 50%;
+    height: 90%;
+    background-color: #C30000;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.texto_form {
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    font-weight: 500;
+    color: white;
+}
+
+.tamanho_imagem_perfil {
+    border-radius: 100%;
+    border-style: solid;
+    border-color: #b60505;
+}
+
+
+.formulario {
+    width: 70%;
+    
+}
+
+.tamanho_input{
+    margin: -10px;
+}
+
+.botao_form{
+    background-color: #5f0202;
+    border: none;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    border-radius: 20px;
+    height: 35px;
+    width: 100%;
+    text-align: center;
+    margin: -10px;
+    transition: all 1s ease;
+
+}
+
+.botao_form:hover{
+    background-color: #800101;
+}

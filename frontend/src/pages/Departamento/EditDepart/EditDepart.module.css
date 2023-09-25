@@ -1,0 +1,31 @@
+.fundo_container {
+    width: 90%;
+    height: auto;
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.text_title {
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    font-size: 25px;
+}
+
+.btn_criar{
+    background-color: #c30202;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    padding: 10px 20px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    cursor: pointer;
+    transition: all .2s ease;
+    margin-bottom:20px;
+}
+
+.btn_criar:hover {
+    background-color: #d50303;
+}

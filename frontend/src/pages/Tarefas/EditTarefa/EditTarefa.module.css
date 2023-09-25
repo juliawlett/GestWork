@@ -1,0 +1,187 @@
+/* Adicione estas classes no seu arquivo CSS */
+.fundo_conteudo {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+    /* Garante que o conteúdo ocupe pelo menos toda a altura da tela */
+    justify-content: start;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.fundo_container {
+    width: 90%;
+    height: auto;
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.fundo_info {
+    margin-top: 50px;
+    width: 90%;
+    justify-content: start;
+    text-align: center;
+    display: flex;
+
+}
+
+.fundo_tamanho_historico {
+    width: 50%;
+}
+
+.fundo_arquive {
+    width: 50%;
+    height: auto;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 50px;
+}
+
+.fundo_historico {
+    height: 50px;
+}
+
+.font_historico {
+    font-weight: 500;
+}
+
+.title_formatacao {
+    justify-content: start;
+
+}
+
+.formatacao_btn_pdf {
+    background-color: #4a4a4a00;
+    border: none;
+    font-size: 20px;
+    color: #c30202;
+    margin-left: 50px;
+}
+
+/* Exemplo de estilo para o tooltip */
+.tooltip.tooltip-top {
+    background-color: #333;
+    color: #fff;
+    font-size: 14px;
+    padding: 8px;
+    border-radius: 4px;
+    opacity: 1;
+}
+
+
+.text_title {
+    font-family: 'Poppins', sans-serif;
+    margin: auto;
+    margin-left: 0;
+    margin-right: 0;
+    font-size: 27px;
+
+}
+
+.btn_close {
+    cursor: pointer;
+    transition: all .2s ease;
+    color: black;
+}
+
+.btn_close:hover {
+    cursor: pointer;
+    color: #c30202;
+}
+
+.btn_criar {
+    background-color: #c30202;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    padding: 10px 20px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    cursor: pointer;
+    transition: all .2s ease;
+}
+
+.btn_criar:hover {
+    background-color: #d50303;
+}
+
+.btn_deletar {
+    background-color: #4a4a4a;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    padding: 10px 20px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    cursor: pointer;
+    transition: all 0.9s ease;
+}
+
+.btn_deletar:hover {
+    background-color: #807f7f;
+    color: #d4d4d4;
+}
+
+.fundo_comentario {
+    width: 100%;
+}
+
+.text_p {
+    font-family: 'Poppins', sans-serif;
+    margin: auto;
+    margin-left: 0;
+    margin-right: 0;
+    font-size: 27px;
+}
+
+.linha_arquivo{
+    width: 100%;
+    background-color: #00000085;
+    height: 1px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.text_arquivo{
+    color: #c30202;
+    text-transform: uppercase;
+}
+
+.botao_salvar{
+    background-color: green;
+    border: none;
+    color: white;
+    font-size: 18px;
+    border-radius: 5px;
+    width: 35px;
+    height: 35px;
+    transition: all 0.2s ease;
+
+}
+.botao_salvar:hover{
+    background-color: rgb(0, 97, 0);
+    cursor: pointer;
+}
+
+.deletar{
+    background-color: #d50303;
+    border: none;
+    color: white;
+    font-size: 18px;
+    border-radius: 5px;
+    width: 35px;
+    height: 35px;
+    transition: all 0.2s ease;
+    margin-left: 10px;
+}
+
+.deletar:hover{
+    background-color: #760404;
+    cursor: pointer;
+}
