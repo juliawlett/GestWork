@@ -1,6 +1,9 @@
 # Projeto de Gestão Individual com Kanban - GestWork
 Este projeto é uma aplicação de gestão de atividade individual baseada na metodologia Kanban, que utiliza **Node.js** para o back-end, **React** para o front-end e o banco de dados **WorkBank** local para armazenar as informações.
 
+## ⚠️ Observação
+Este projeto é a **versão 1.0** do sistema de gestão individual com a metodologia Kanban. A **versão 2.0** já está disponível online em [juliafullstack.site](https://juliafullstack.site) e está em constante melhoria, incluindo aprimoramentos no código e no layout. A versão 2.0 traz novas funcionalidades e melhorias de performance, sendo o próximo passo do desenvolvimento desse sistema.
+
 ## 🚀 Tecnologias Utilizadas
 - **Back-end**: Node.js
 - **Front-end**: React.js
@@ -44,9 +47,4 @@ Este projeto segue os princípios da metodologia Kanban, com o objetivo de melho
 - Acompanhamento visual do progresso das tarefas.
 - Gestão de tempo mais eficiente, facilitando a priorização das tarefas.
 - Limitação do trabalho em progresso (WIP), ajudando a evitar sobrecarga.
-
-
-## ⚠️ Observação
-
-Este projeto é a **versão 1.0** do sistema de gestão individual com a metodologia Kanban. A **versão 2.0** já está disponível online em [juliafullstack.site](https://juliafullstack.site) e está em constante melhoria, incluindo aprimoramentos no código e no layout. A versão 2.0 traz novas funcionalidades e melhorias de performance, sendo o próximo passo do desenvolvimento desse sistema.
 
