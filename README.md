@@ -1,9 +1,7 @@
 # Projeto de Gestão Individual com Kanban - GestWork
-
 Este projeto é uma aplicação de gestão de atividade individual baseada na metodologia Kanban, que utiliza **Node.js** para o back-end, **React** para o front-end e o banco de dados **WorkBank** local para armazenar as informações.
 
 ## 🚀 Tecnologias Utilizadas
-
 - **Back-end**: Node.js
 - **Front-end**: React.js
 - **Banco de dados**: WorkBank (banco de dados local)
@@ -11,7 +9,6 @@ Este projeto é uma aplicação de gestão de atividade individual baseada na me
 ## 🛠 Como Executar o Projeto
 
 ### Pré-requisitos
-
 Certifique-se de que você tem os seguintes softwares instalados:
 
 - [Node.js](https://nodejs.org/) (para o back-end)
@@ -19,8 +16,6 @@ Certifique-se de que você tem os seguintes softwares instalados:
 - [WorkBank](https://www.workbank.com) (banco de dados local para armazenar os dados)
 
 ### 1. Configuração do Back-end
-
-1. Clone o repositório:
 - cd backend
 - npm install
 - npm start
@@ -31,11 +26,9 @@ Certifique-se de que você tem os seguintes softwares instalados:
 - npm start
 
 ### 3. Banco de Dados
-
 Este projeto utiliza o banco de dados WorkBank local para armazenar as informações de tarefas e projetos. O banco de dados é integrado diretamente ao back-end e não requer configurações adicionais. O banco de dados será armazenado localmente no diretório do projeto.
 
 ## 💡 Funcionalidades
-
 - Criação de Tarefas: Adicione novas tarefas para os seus projetos.
 - Visualização Kanban: Organize as tarefas em colunas (por exemplo, "A Fazer", "Em Andamento", "Concluído").
 - Edição de Tarefas: Modifique os detalhes das tarefas conforme necessário.
